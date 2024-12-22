@@ -32,8 +32,8 @@ public class BunnyChenAniparticleAttractorLinear : MonoBehaviour
 
             // 调整每个轴的速度因子
             float adjustedSpeedX = step * 5f; // X 轴速度较慢
-            float adjustedSpeedY = step *10; // Y 轴速度较快
-            float adjustedSpeedZ = step * 10; // Z 轴速度较快
+            float adjustedSpeedY = step *20; // Y 轴速度较快
+            float adjustedSpeedZ = step * 20; // Z 轴速度较快
 
             // 逐轴处理位置变更
             m_Particles[i].position += new Vector3(
