@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "HDRP-AniTest.sln"
+    "dotnet.defaultSolution": "HDRP-AniTest.sln",
+    "dotnet.preferCSharpExtension": true
 }
